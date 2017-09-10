@@ -1,3 +1,7 @@
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function forLoop(array){
 for (var i = 0; i < 25; i++){
   if(i === 1){
@@ -23,9 +27,5 @@ doWhileLoop(array){
   do{
   array.shift();
   }
-  while(array.length>0 && maybeTrue)
-}
-
-function maybeTrue() {
-  return Math.random() >= 0.5
+  while(array.length>0 && maybeTrue())
 }
