@@ -23,10 +23,10 @@ function whileLoop(n){
   return "done";
 }
 
-doWhileLoop(array){
-  do{
-  array.shift();
-  }
-  while(array.length>0 || maybeTrue())
-  return array;
-}
+// doWhileLoop(array){
+//   do{
+//   array.shift();
+//   }
+//   while(array.length>0 || maybeTrue())
+//   return array;
+// }
